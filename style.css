@@ -641,3 +641,22 @@
     z-index: 999;
     box-shadow: 0 -10px 12px -5px hsl(0deg 0% 0% / 10%);
 }
+
+
+
+@media (max-width: 480px) {
+    body{
+        background-color: #cf0011;
+        overflow-x: hidden;
+    }
+    .header img{
+        width: 1000px;
+        height: 150vh;
+    }
+    .navbar{
+        width: 600px;
+        flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: row;    }
+}
