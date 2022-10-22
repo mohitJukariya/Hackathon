@@ -429,7 +429,21 @@
     height: 150px;
     border: 2px solid black;
 }
-
+.spon-box2 {
+    width: 30%;
+    height: 150px;
+    border: 2px solid black;
+}
+.spon-box1 img {
+    padding: 1%;
+    height: 140px;
+    width:150px;
+}
+.spon-box2 img {
+    padding: 1%;
+    height: 140px;
+    width:300px;
+}
 
 .expert-section {
     margin-top: 90px;
