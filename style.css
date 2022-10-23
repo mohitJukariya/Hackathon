@@ -677,8 +677,8 @@ text-align: center;
     }
 }
 
-@media(max-width: 700px){
-/* @media(max-width: 488px){ */
+/* @media(max-width: 700px){ */
+@media(max-width: 480px){
 
     .navbar img {
         width: 160px;
@@ -847,5 +847,9 @@ text-align: center;
     }
     .header img {
         min-height: fit-content !important;
-    }       
+    }  
+/* 
+    .FaqCard {
+        display: contents;
+    } */
 }
