@@ -314,6 +314,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background: rgb(207, 219, 233);
+    background: -moz-linear-gradient(-45deg, rgba(207, 219, 233, 1) 0%, rgba(170, 196, 222, 1) 14%, rgba(170, 196, 222, 1) 14%, rgba(97, 151, 199, 1) 32%, rgba(58, 128, 194, 1) 50%, rgba(66, 152, 214, 1) 70%, rgba(76, 183, 240, 1) 82%, rgba(58, 137, 194, 1) 91%, rgba(38, 84, 140, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(207, 219, 233, 1) 0%, rgba(170, 196, 222, 1) 14%, rgba(170, 196, 222, 1) 14%, rgba(97, 151, 199, 1) 32%, rgba(58, 128, 194, 1) 50%, rgba(66, 152, 214, 1) 70%, rgba(76, 183, 240, 1) 82%, rgba(58, 137, 194, 1) 91%, rgba(38, 84, 140, 1) 100%);
+    background: linear-gradient(135deg, rgba(207, 219, 233, 1) 0%, rgba(170, 196, 222, 1) 14%, rgba(170, 196, 222, 1) 14%, rgba(97, 151, 199, 1) 32%, rgba(58, 128, 194, 1) 50%, rgba(66, 152, 214, 1) 70%, rgba(76, 183, 240, 1) 82%, rgba(58, 137, 194, 1) 91%, rgba(38, 84, 140, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfdbe9', endColorstr='#26548c', GradientType=1);
+
 }
 
 .prizes-section .tittle-sm {
@@ -669,6 +675,24 @@ text-align: center;
     transition: .3s ease-in-out;
 }
 
+.scrollmenu {
+    /* background-color: #333; */
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.scrollmenu img {
+    height: 20%;
+    width: 20%;
+}
 @media(max-width: 1075px){
     .navbar img {
         width: 150px;
@@ -850,6 +874,10 @@ text-align: center;
         object-position: center;
         width: 100%;
         height: 100%;
+    }
+    .scrollmenu img {
+        width: 70%;
+        height: 80%;
     }
 }
 @media (min-width:815px) and (max-width:980px){
