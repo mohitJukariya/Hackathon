@@ -732,9 +732,14 @@ text-align: center;
 /* @media(max-width: 700px){ */
 @media(max-width: 480px){
 
+    .navbar {
+        display: inline-table;
+    }
     .navbar img {
         width: 160px;
+
     }
+    
     .header-section h1{
         margin-top: 18%;
         font-size: 1.8rem;
