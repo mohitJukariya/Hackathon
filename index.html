@@ -36,7 +36,22 @@
 
 <body>
 
-
+    <div id="popup" class="close">
+        <button id="btn-cross">X</button>
+        <div class="content-popup text-light text-center"><strong>
+            <p>
+                <u>NOTE</u> <br/><br/> The registration date for the hackathon has been extended till November 12, 2022.
+            </p>
+        </strong></div>
+        <!-- <img class="content-popup" src="images/BannerBg.jpg"/> -->
+   </div>
+   <script>
+        const close = document.querySelector('.close');
+        const pop = document.querySelector('#popup');
+        close.addEventListener('click',() =>{
+            pop.style.display = 'none'
+        } )
+    </script>
 
     <div class="navbar">
         <div class="logo">
@@ -55,9 +70,9 @@
             <div class="btn row-cols-2 mx-1 my-1">
                 <a href="./images/Event Details.pdf">Event Details</a>
             </div>
-            <div class="btn row-cols-2 mx-1 my-1">
+            <!-- <div class="btn row-cols-2 mx-1 my-1">
                 <a href="./images/Reference_PPT_Coer.pptx">Reference PPT</a>
-            </div>
+            </div> -->
             <div class="btn row-cols-2 mx-1 my-1">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdCg57TCJ90QfI0hi4f6WqfB9_y6A4ddQ_yDjl29Z6dFv4AtA/viewform" data-bs-toggle="modal" data-bs-target="#exampleModal">Registration</a>
             </div>
@@ -152,7 +167,7 @@
             <div class="event-r">
                 <div class="event-r1">
                     <h3>Preliminary Round</h3>
-                    <h4>10th November, 2022</h4>
+                    <h4>13th November, 2022</h4>
                     <p>The top teams for the Hackathon will be selected by analyzing the solutions to the problems given by the teams in their PPTs.</p>
                 </div>
                 <div class="event-rb mx-3"></div>
@@ -187,35 +202,6 @@
                 <img class="mx-3 my-3" src="./images/ED5.jpg" alt="">
                 <img class="mx-3 my-3" src="./images/ED6.jpg" alt="">
             </div>
-
-            <!-- <div class="scrollmenu ED-section">
-                <div class="row align-items-start">
-                    <div class="col mx-5 my-2">
-                        <img class="poster" width="320" height="400" src="./images/ED1.jpg" >
-                          </img>
-                    </div>
-                    <div class="col mx-5 my-2">
-                        <img class="poster" width="320" height="400" src="./images/ED2.jpg">
-                          </img>
-                    </div>
-                    <div class="col mx-5 my-2">
-                        <img class="poster" width="320" height="400" src="./images/ED3.jpg">
-                          </img>
-                    </div>
-                    <div class="col mx-5 my-2">
-                        <img class="poster" width="320" height="400" src="./images/ED4.jpg" >
-                          </img>
-                    </div>
-                    <div class="col mx-5 my-2">
-                        <img class="poster" width="320" height="400" src="./images/ED5.jpg">
-                          </img>
-                    </div>
-                    <div class="col mx-5 my-2">
-                        <img class="poster" width="320" height="400" src="./images/ED6.jpg">
-                          </img>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
         <div class="collaboration-section">
@@ -223,8 +209,6 @@
             <div class="collaboration-box">
                 <div class="collaboration-box2 my-3"> <img src="./images/hackathonLogo.jpeg" alt=""> </div>
                 <div class="collaboration-box2 my-3"> <img src="./images/gdcLogo.jpg" alt=""> </div>
-                <!-- <div class="collaboration-box2 my-3"> <img src="./images/coer.jpg" alt=""> </div> -->
-                <!-- <div class="collaboration-box2 my-3"> <img src="./images/ewyl.png" alt=""> </div> -->
                 <div class="collaboration-box2 my-3"> <img src="./images/Disha logo.jpg" alt=""> </div>
             </div>
         </div>
@@ -351,8 +335,7 @@
             <div class="timeline-box">
                 <div class="timeline-b1">
                     <h3>Registration (Idea Submission)</h3>
-                    <p>All the teams are required to get themselves registered, choose a theme from the given themes and
-                        submit their PPT in the given format by 8th November, 2022. </p>
+                    <p>All the teams are required to choose a theme from the given themes and get themselves registered by 12th November, 2022.  </p>
                 </div>
                 <div class="timeline-b1-1">
                     <div class="b1-1-1">
@@ -360,7 +343,7 @@
                     </div>
                     <div class="b1-1-2"></div>
                     <div class="b1-1-1">
-                        <h5>08 November</h5>
+                        <h5>12 November</h5>
                     </div>
                 </div>
             </div>
@@ -369,31 +352,31 @@
                 <div class="timeline-b1">
                     <h3>Top Teams Shortlisted</h3>
                     <p>All the registered teams will be evaluated by the experts on the basis of Novelty,
-                        Appropriateness, Feasibility, Relevance, Impact and Scalability. The top teams will get shortlisted and notified by 10th of November.</p>
+                        Appropriateness, Feasibility, Relevance, Impact and Scalability. The top teams will get shortlisted and notified by 13th of November.</p>
                 </div>
                 <div class="timeline-b1-1">
                     <div class="b1-1-1">
-                        <h5>08 November</h5>
+                        <h5>13 November</h5>
                     </div>
-                    <div class="b1-1-2"></div>
+                    <!-- <div class="b1-1-2"></div>
                     <div class="b1-1-1">
                         <h5>10 November</h5>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
             <div class="timeline-box">
                 <div class="timeline-b1">
-                    <h3>Registerations for Shortlisted Teams</h3>
-                    <p>All the shortlisted registered teams will have to register themselves to ensure their presence at the COER campus for the final round. Qualified teams will be able to register themselves by 12 November 2022</p>
+                    <h3>Registrations for Shortlisted Teams</h3>
+                    <p>All the shortlisted registered teams will have to register themselves to ensure their presence at the COER campus for the final round. Qualified teams will be able to register themselves by 15th November 2022</p>
                 </div>
                 <div class="timeline-b1-1">
                     <div class="b1-1-1">
-                        <h5>10 November</h5>
+                        <h5>13 November</h5>
                     </div>
                     <div class="b1-1-2"></div>
                     <div class="b1-1-1">
-                        <h5>12 November</h5>
+                        <h5>15 November</h5>
                     </div>
                 </div>
             </div>
@@ -768,8 +751,7 @@
                         https://forms.gle/8AZzJ2qa2v4UPtsTA
                     </p> -->
                     <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdCg57TCJ90QfI0hi4f6WqfB9_y6A4ddQ_yDjl29Z6dFv4AtA/viewform">Submit
-                        your PPT and register yourself here.</a>
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdCg57TCJ90QfI0hi4f6WqfB9_y6A4ddQ_yDjl29Z6dFv4AtA/viewform">Click here to register your team.</a>
                 </div>
             </div>
         </div>
