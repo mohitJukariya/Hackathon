@@ -722,7 +722,7 @@ text-align: center;
 
 .content-popup{
     position: fixed;       
-    top: 35%;
+    top: 50%;
     left:50%;
     font-size: larger;
     border-radius: 2rem;
@@ -741,7 +741,7 @@ text-align: center;
     position: fixed;
     color: azure;
     font-size: 1.3rem;
-    top: 20vh;
+    top: 35vh;
     left:80vw;
     z-index: 3;
     transform: translate(-50%,-50%); 
@@ -794,7 +794,7 @@ text-align: center;
     
     .content-popup{
         position: fixed;       
-        top: 35%;
+        top: 50%;
         left:50%;
         font-size: larger;
         border-radius: 2rem;
@@ -813,7 +813,7 @@ text-align: center;
         position: fixed;
         color: azure;
         font-size: 1.3rem;
-        top: 20vh;
+        top: 35vh;
         left:80vw;
         z-index: 3;
         transform: translate(-50%,-50%); 
